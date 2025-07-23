@@ -1,6 +1,6 @@
 import axios from 'axios'
 export default {
-    test() {
-        return axios.get('/api/test')
+    test(data) {
+        return axios.post('/api/btn_click', data)
     }
 }

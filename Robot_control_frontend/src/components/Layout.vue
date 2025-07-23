@@ -40,100 +40,100 @@
           <el-row :gutter="20">
             <el-col :span="6">
               <div class="grid-content bg-purple">
-                <el-button type="primary" @click="test" size="medium">启动机械臂</el-button>
+                <el-button type="primary" @click="handleClick('start_arm')" size="medium">启动机械臂</el-button>
               </div>
             </el-col>
             <el-col :span="6">
               <div class="grid-content bg-purple">
-                <el-button type="primary" @click="test" size="medium">机械臂位姿初始化</el-button>
+                <el-button type="primary" @click="handleClick('btn')" size="medium">机械臂位姿初始化</el-button>
               </div>
             </el-col>
             <el-col :span="6">
               <div class="grid-content bg-purple">
-                <el-button type="primary" @click="test" size="medium">取打磨工具</el-button>
+                <el-button type="primary" @click="handleClick('btn')" size="medium">取打磨工具</el-button>
               </div>
             </el-col>
             <el-col :span="6">
               <div class="grid-content bg-purple">
-                <el-button type="primary" @click="test" size="medium">切换机械臂模型1</el-button>
-              </div>
-            </el-col>
-          </el-row>
-          <el-row :gutter="20">
-            <el-col :span="6">
-              <div class="grid-content bg-purple">
-                <el-button type="primary" @click="test" size="medium">开启线夹位姿估计</el-button>
-              </div>
-            </el-col>
-            <el-col :span="6">
-              <div class="grid-content bg-purple">
-                <el-button type="primary" @click="test" size="medium">开启圆孔位姿估计</el-button>
-              </div>
-            </el-col>
-            <el-col :span="6">
-              <div class="grid-content bg-purple">
-                <el-button type="primary" @click="test" size="medium">取导电涂抹工具</el-button>
-              </div>
-            </el-col>
-            <el-col :span="6">
-              <div class="grid-content bg-purple">
-                <el-button type="primary" @click="test" size="medium">切换机械臂模型2</el-button>
+                <el-button type="primary" @click="handleClick('btn')" size="medium">切换机械臂模型1</el-button>
               </div>
             </el-col>
           </el-row>
           <el-row :gutter="20">
             <el-col :span="6">
               <div class="grid-content bg-purple">
-                <el-button type="primary" @click="test" size="medium">发布线夹位姿</el-button>
+                <el-button type="primary" @click="handleClick('btn')" size="medium">开启线夹位姿估计</el-button>
               </div>
             </el-col>
             <el-col :span="6">
               <div class="grid-content bg-purple">
-                <el-button type="primary" @click="test" size="medium">运动到孔的位置</el-button>
+                <el-button type="primary" @click="handleClick('btn')" size="medium">开启圆孔位姿估计</el-button>
               </div>
             </el-col>
             <el-col :span="6">
               <div class="grid-content bg-purple">
-                <el-button type="primary" @click="test" size="medium">取螺栓螺母旋紧工具</el-button>
+                <el-button type="primary" @click="handleClick('btn')" size="medium">取导电涂抹工具</el-button>
               </div>
             </el-col>
             <el-col :span="6">
               <div class="grid-content bg-purple">
-                <el-button type="primary" @click="test" size="medium">切换机械臂模型3</el-button>
-              </div>
-            </el-col>
-          </el-row>
-          <el-row :gutter="20">
-            <el-col :span="6">
-              <div class="grid-content bg-purple">
-                <el-button type="primary" @click="test" size="medium">运动到线夹正前方</el-button>
-              </div>
-            </el-col>
-            <el-col :span="6">
-              <div class="grid-content bg-purple">
-                <el-button type="primary" @click="test" size="medium">线夹抓握姿态估计</el-button>
-              </div>
-            </el-col>
-            <el-col :span="6">
-              <div class="grid-content bg-purple">
-                <el-button type="primary" @click="test" size="medium">机械臂2抓握</el-button>
-              </div>
-            </el-col>
-            <el-col :span="6">
-              <div class="grid-content bg-purple">
-                <el-button type="primary" @click="test" size="medium">路点采集示数</el-button>
+                <el-button type="primary" @click="handleClick('btn')" size="medium">切换机械臂模型2</el-button>
               </div>
             </el-col>
           </el-row>
           <el-row :gutter="20">
             <el-col :span="6">
               <div class="grid-content bg-purple">
-                <el-button type="primary" @click="test" size="medium">初始化位姿记录</el-button>
+                <el-button type="primary" @click="handleClick('btn')" size="medium">发布线夹位姿</el-button>
               </div>
             </el-col>
             <el-col :span="6">
               <div class="grid-content bg-purple">
-                <el-button type="primary" @click="test" size="medium">开启相机</el-button>
+                <el-button type="primary" @click="handleClick('btn')" size="medium">运动到孔的位置</el-button>
+              </div>
+            </el-col>
+            <el-col :span="6">
+              <div class="grid-content bg-purple">
+                <el-button type="primary" @click="handleClick('btn')" size="medium">取螺栓螺母旋紧工具</el-button>
+              </div>
+            </el-col>
+            <el-col :span="6">
+              <div class="grid-content bg-purple">
+                <el-button type="primary" @click="handleClick('btn')" size="medium">切换机械臂模型3</el-button>
+              </div>
+            </el-col>
+          </el-row>
+          <el-row :gutter="20">
+            <el-col :span="6">
+              <div class="grid-content bg-purple">
+                <el-button type="primary" @click="handleClick('btn')" size="medium">运动到线夹正前方</el-button>
+              </div>
+            </el-col>
+            <el-col :span="6">
+              <div class="grid-content bg-purple">
+                <el-button type="primary" @click="handleClick('btn')" size="medium">线夹抓握姿态估计</el-button>
+              </div>
+            </el-col>
+            <el-col :span="6">
+              <div class="grid-content bg-purple">
+                <el-button type="primary" @click="handleClick('btn')" size="medium">机械臂2抓握</el-button>
+              </div>
+            </el-col>
+            <el-col :span="6">
+              <div class="grid-content bg-purple">
+                <el-button type="primary" @click="handleClick('btn')" size="medium">路点采集示数</el-button>
+              </div>
+            </el-col>
+          </el-row>
+          <el-row :gutter="20">
+            <el-col :span="6">
+              <div class="grid-content bg-purple">
+                <el-button type="primary" @click="handleClick('btn')" size="medium">初始化位姿记录</el-button>
+              </div>
+            </el-col>
+            <el-col :span="6">
+              <div class="grid-content bg-purple">
+                <el-button type="primary" @click="handleClick('btn')" size="medium">开启相机</el-button>
               </div>
             </el-col>
           </el-row>
@@ -197,9 +197,20 @@ export default {
 
   },
   methods: {
-    async test() {
+    async handleClick(btn_name) {
       try {
-        await services.test()
+        const data = {
+          btn_name,
+          form:this.form_params
+        }
+        console.log(btn_name)
+        const resp = await services.test(data)
+        console.log(resp.data)
+        if (resp.data.code === 200) {
+          this.$message.success("操作成功")
+        } else {
+          this.$message.error(resp.data.msg)
+        }
       } catch (error) {
         console.log(error)
       }
